@@ -21,14 +21,19 @@ generates interview questions, evaluates interview answers, and predicts hiring 
 
 ## Project Structure
 AI_INTERVIEW_PREDICTOR/
-├── data/
-│ ├── raw/
-│ └── processed/
-├── notebooks/
+├── data/                  # ignored (raw & processed datasets)
+│   ├── raw/
+│   └── processed/
+├── Notebooks/
+│   └── phase1_data_cleaning.ipynb
 ├── src/
-│ └── utils/
+│   └── utils/
+│       ├── text_cleaning.py
+│       └── embedding_utils.py
 ├── requirements.txt
+├── .gitignore
 └── README.md
+
 
 ## Project Phases
 - Phase 1: Data inspection and preprocessing (resumes & job postings) ✅
@@ -42,4 +47,6 @@ AI_INTERVIEW_PREDICTOR/
 Raw datasets are excluded from this repository.
 
 ## Status
-✅ Phase 1: Data Cleaning (Completed)
+✅ Phase 1: Data inspection & preprocessing completed
+🚧 Phase 2: Resume–Job ATS matching (In Progress)
+
