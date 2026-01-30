@@ -14,4 +14,6 @@ __pycache__/
 Thumbs.db
 
 # Data (we will store big datasets elsewhere)
-data/
+Data/
+Data/raw/
+Data/processed/

@@ -1,0 +1,16 @@
+pandas
+numpy
+matplotlib
+scikit-learn
+xgboost
+sentence-transformers
+nltk
+spacy
+flask
+fastapi
+uvicorn
+mysql-connector-python
+sqlalchemy
+shap
+tqdm
+python-dotenv
