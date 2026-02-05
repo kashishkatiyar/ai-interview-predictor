@@ -17,3 +17,7 @@ Thumbs.db
 Data/
 Data/raw/
 Data/processed/
+
+Notebooks/*.csv
+
+  
