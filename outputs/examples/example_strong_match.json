@@ -1,0 +1,17 @@
+{
+    "test_type": "strong_match",
+    "final_score": 83.82,
+    "semantic_score": 76.89,
+    "skill_score": 100.0,
+    "title_score": 100,
+    "confidence": "Strong Match",
+    "domain": "Data Science",
+    "matched_skills": [
+        "python",
+        "pandas",
+        "numpy",
+        "machine learning",
+        "statistics"
+    ],
+    "missing_skills": []
+}

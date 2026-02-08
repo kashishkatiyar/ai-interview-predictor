@@ -1,0 +1,16 @@
+{
+    "test_type": "moderate_match",
+    "final_score": 42.66,
+    "semantic_score": 32.37,
+    "skill_score": 100.0,
+    "title_score": 0,
+    "confidence": "Moderate Match",
+    "domain": "Data Science",
+    "matched_skills": [
+        "python",
+        "pandas",
+        "machine learning",
+        "statistics"
+    ],
+    "missing_skills": []
+}

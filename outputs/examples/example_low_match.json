@@ -1,0 +1,17 @@
+{
+    "test_type": "low_match",
+    "final_score": 37.47,
+    "semantic_score": 39.24,
+    "skill_score": 50.0,
+    "title_score": 0,
+    "confidence": "Low Match",
+    "domain": "Design",
+    "matched_skills": [
+        "photoshop",
+        "illustrator"
+    ],
+    "missing_skills": [
+        "figma",
+        "ui ux"
+    ]
+}

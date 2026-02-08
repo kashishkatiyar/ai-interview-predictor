@@ -20,4 +20,15 @@ Data/processed/
 
 Notebooks/*.csv
 
-  
+#future folders
+outputs/ats_results.csv
+outputs/*.png
+reports/
+
+# Large or generated outputs
+outputs/logs/
+outputs/full_runs/
+outputs/datasets/
+
+outputs/ats_dataset.csv   (future training dataset)
+outputs/plots/

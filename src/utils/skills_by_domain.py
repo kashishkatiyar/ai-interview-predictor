@@ -35,5 +35,7 @@ SKILLS_BY_DOMAIN = {
 
     "Operations": [
         "process improvement","logistics","project management"
-    ]
+    ],
+    "Other": []
+
 }

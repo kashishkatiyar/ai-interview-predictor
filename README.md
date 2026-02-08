@@ -20,16 +20,34 @@ generates interview questions, evaluates interview answers, and predicts hiring 
 - Bootstrap (Frontend)
 
 ## Project Structure
+
 AI_INTERVIEW_PREDICTOR/
-├── data/                  # ignored (raw & processed datasets)
+├── data/
 │   ├── raw/
 │   └── processed/
-├── Notebooks/
-│   └── phase1_data_cleaning.ipynb
+│
+├── notebooks/
+│   ├── phase1_data_cleaning.ipynb
+│   └── phase2_ats_matching.ipynb
+│
 ├── src/
+│   ├── matching/
+│   │   └── ats_matcher.py
 │   └── utils/
-│       ├── text_cleaning.py
-│       └── embedding_utils.py
+│       ├── domain_mapper.py
+│       ├── embedding_utils.py
+│       ├── skills_by_domain.py
+│       └── text_cleaning.py
+│
+├── docs/
+│   └── project_progress.md
+│
+├── outputs/
+│   └── examples/
+│       ├── example_strong_match.json
+│       ├── example_moderate_match.json
+│       ├──example_low_match.json
+│
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -40,13 +58,19 @@ AI_INTERVIEW_PREDICTOR/
 - Phase 2: Resume–Job ATS matching (ML)
 - Phase 3: Interview question generation (LLM)
 - Phase 4: Interview answer scoring
-- Phase 5: Hiring probability prediction
-- Phase 6: Web application (Flask)
+- Phase 5: Hiring probability model
+- Phase 6: Decision Engine
+- Phase 7: Web application (Flask)
+- Phase 8 – GenAI Explanation Layer 
 
 ## Note
-Raw datasets are excluded from this repository.
+datasets are excluded from this repository.
 
 ## Status
 ✅ Phase 1: Data inspection & preprocessing completed
 🚧 Phase 2: Resume–Job ATS matching (In Progress)
 
+## Future Improvements
+- ATS prediction logging
+- Skill gap visualization
+- Interview success prediction
